@@ -1,0 +1,6 @@
+Feature: As a Tester
+  I want to automate the App functionality
+  So that I can test the app
+
+  Scenario: First scenario         [90m# features/FIrst.feature:5[0m
+    [32mGiven [0m[32mI am on App landing page[0m [90m# First.iAmOnAppLandingPage()[0m

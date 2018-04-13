@@ -1,0 +1,56 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 45689403919,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.startClient()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "First scenario",
+        "description": "",
+        "id": "as-a-tester;first-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 245165303,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeDriver(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 99651611,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on App landing page",
+            "match": {
+              "location": "First.iAmOnAppLandingPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "As a Tester",
+    "description": "I want to automate the App functionality\nSo that I can test the app",
+    "id": "as-a-tester",
+    "keyword": "Feature",
+    "uri": "features/FIrst.feature"
+  }
+]
